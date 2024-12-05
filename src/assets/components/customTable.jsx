@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import './customTable.css';
+import './styles.css';
 
 
 // Main component
