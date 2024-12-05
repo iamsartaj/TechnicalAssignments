@@ -60,4 +60,10 @@ JavaScript: Used for managing interactivity and data manipulation in the table.
 
 ## Additional Tools
 
+- **useState and useMemo Hooks:** For managing state and memoizing filtered/sorted data to optimize performance.
+
+JavaScript: Used for managing interactivity and data manipulation in the table.
+
+## Additional Tools
+
 useState and useMemo Hooks: For managing state and memoizing filtered/sorted data to optimize performance.
