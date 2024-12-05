@@ -1,0 +1,41 @@
+/* App container styling*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Quicksand", serif;
+  }
+  
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    background-color: rgb(162, 232, 255);
+    gap: 70px;
+    width: 100%;
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 500;
+    color: white;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: rgb(71, 64, 64);
+    border-radius: 15px;
+    padding: 10px 10px;
+  }
+  
+  .nav-link:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(110, 21, 21);
+    border-radius: 5px;
+  }
+
