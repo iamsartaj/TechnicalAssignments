@@ -1,16 +1,16 @@
-- Custom Table Component
-Introduction
-Custom Table Component is a React-based application that allows users to view and interact with tabular data. The table supports sorting, filtering, and dynamic styling, providing users with a flexible and customizable table experience. It is designed to demonstrate React best practices and the ability to create reusable components with an interactive interface.
+# React + Vite Custom Table Component
 
-Project Type
+## Introduction
+Custom Table Component is a React-based application that allows users to view and interact with tabular data. The table supports sorting, filtering, and dynamic styling, providing users with a flexible and customizable table experience. It is designed to demonstrate React's best practices and the ability to create reusable components with an interactive interface.
+
+## Project Type
 Frontend
 
-Deployed App
-Currently, this project can be deployed and tested locally or on any preferred hosting platform.
+## Deployed App
+https://technicalassignments.netlify.app/
 
-Directory Structure
-bash
-Copy code
+## Directory Structure
+```bash
 custom-table/
   ├─ src/
   │   ├─ components/
@@ -24,8 +24,9 @@ custom-table/
   ├─ package.json
   └─ README.md
 
-  Features
-Sorting: Allows users to sort data in ascending or descending order by clicking on the column headers.
+
+##Features
+Sorting: Users can sort data in ascending or descending order by clicking on the column headers.
 Filtering: Users can filter data by entering a search term for each column, allowing for dynamic searching across different table columns.
 Dynamic Styling: Customize table fonts, background colors, and text colors through props for a personalized UI.
 Responsiveness: Ensures the table layout is responsive and adjusts properly on different screen sizes.
@@ -37,7 +38,7 @@ Modular Component Structure: Components are split into smaller reusable parts (T
 CSS Styling: Custom styles are defined in a separate CSS file to ensure clarity and maintainability.
 No External APIs: This project works with locally defined data and doesn't rely on external APIs.
 
-- Usage
+## Usage
 After running the application, you can interact with the table by:
 
 Sorting Columns: Clicking on the column headers sorts the data in ascending or descending order.
@@ -46,14 +47,16 @@ Dynamic Styling: Pass in styleProps to customize the font size, background color
 Credentials
 No authentication is required for this application.
 
-APIs Used
+## APIs Used
 No external APIs are used in this project.
 
-Technology Stack
+## Technology Stack
 Core Technologies
+
 React: JavaScript library for building the user interface.
 CSS: Custom styling for table components.
 JavaScript: Used for managing interactivity and data manipulation in the table.
-Additional Tools
+
+##Additional Tools
+
 useState and useMemo Hooks: For managing state and memoizing filtered/sorted data to optimize performance.
-Screenshots
