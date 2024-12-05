@@ -1,6 +1,6 @@
 const CustomDatePicker = ()=>{
     return(
-        <div>CustomDatePicker</div>
+        <div>CustomDate</div>
     )
 }
 
