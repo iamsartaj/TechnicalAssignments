@@ -21,7 +21,7 @@ custom-table/
   ├─ .gitignore
   ├─ package.json
   └─ README.md
-
+```
 
 ## Features
 - **Sorting:** Users can sort data in ascending or descending order by clicking on the column headers.
